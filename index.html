@@ -3,18 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejemplo de Página HTML</title>
+    
+    <title>Login y registro</title>
+    <link rel="stylesheet" href="assets/css/">
 </head>
 <body>
-    <h1>Bienvenido a mi Página Web</h1>
-    <p>Esta es una página de ejemplo para mostrar la estructura básica de HTML.</p>
     
-    <h2>Mis colores favoritos</h2>
-    <ul>
-        <li>Rojo</li>
-        <li>Azul</li>
-        <li>Verde</li>
-    </ul>
+    <main>
+        <div class="contenedor_todo">
+
+          <div class="caja_trasera_login">
+                 
+                  <h3>Ya tienes una cuenta?</h3>
+                  <p>Inicia sesion para entrar</p>
+                  <button id="btn_inicio_login">Iniciar sesión</button>
+
+          </div>
+
+
+          <div class="caja_trasera_registro">
+                 
+                 <h3>¿No tienes cuenta?</h3>
+                 <p>Registrate</p>
+                 <button id="btn_inicio_registro">Registrarse</button>
+
+          </div>
+              
+
+           
+
+        </div>
+
+        <div class="contenedor_login_registro">
+
+            <form action="" class="formulario_login">
+
+                <h2>Iniciar sesión</h2>
+                <input type="text" placeholder="Correo electronico">
+                <input type="password" placeholder="Contraseña">
+                <button>Entrar</button>
+            </form>
+
+
+
+        </div>
+    </main>
 
     <h2>Contacto</h2>
     <p>Puedes contactarme a través de <a href="mailto:ejemplo@correo.com">ejemplo@correo.com</a>.</p>
