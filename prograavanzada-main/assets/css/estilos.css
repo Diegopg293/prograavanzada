@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+
+}
+
+.contenedor_todo{
+    width: 400px;
+    background-color: greenyellow;
+    padding: 30px;
+}
+
+
+input, button{
+    margin: 10px;
+}
+
+.contenedor_login_registro{
+    width: 400px;
+    background-color: grey;
+
+}
+body{
+    background-image: url("../Images/pexels-photo-7130488.jpg");
+    background-size: cover;
+    background-position: center center;
+    font-family: Arial, sans-serif;
+}
+
+
+
+
+
