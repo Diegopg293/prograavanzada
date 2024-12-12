@@ -3,72 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <title>Login y registro</title>
-    <link rel="stylesheet" href="assets/css/estilos.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-
     <main>
-
-
         <div class="contenedor_todo">
-
-          <div class="caja_trasera_login">
-                 
-                  <h1 style="color: blue;">Bienvenido</h1>
-                  
-                  
-                  <p style="color: blue;"></p>
-                  
-                  <h2>Iniciar sesión para entrar</h2>
-                 
-                 
-
-                 
-                  
-
-          </div>
-
-
-          <div class="caja_trasera_registro">
-                 
-                 <h3 style="color: blue;">¿No tienes una cuenta? ¡Registrate!</h3>
-                 <form action="registro.php" method="POST" id="form_registro"> 
-                 
-                 <input type="text" name="nombre" placeholder="Nombre de usuario" required>
-
-                 <input type="email" name="correo" placeholder="Correo electronico" required>
-                 <input type="password" name="contraseña" placeholder="Contraseña" required>
-                 <button type="submit" id="btn_inicio_registro">Registrarse</button>
+            <div class="caja_trasera_login">
+                <h1>Bienvenido</h1>
+                <h2>Iniciar sesión para entrar</h2>
+            </div>
+            <div class="caja_trasera_registro">
+                <h3>¿No tienes una cuenta? ¡Registrate!</h3>
+                <form action="registro.php" method="POST"> 
+                    <input type="text" name="username" placeholder="Nombre de usuario" required>
+                    <input type="email" name="email" placeholder="Correo electronico" required>
+                    <input type="password" name="password" placeholder="Contraseña" required>
+                    <button id="btn_inicio_registro">Registrarse</button>
                 </form>
-
-          </div>
-              
-
-           
-
+            </div>
         </div>
-
         <div class="contenedor_login_registro">
-
             <form action="" class="formulario_login">
-
                 <h2>Iniciar sesión</h2>
-
-                
                 <input type="text" placeholder="Correo electronico"> 
                 <input type="password" placeholder="Contraseña">
-                <button>Iniciar sesion</button>
+                <button>Iniciar sesión</button>
             </form>
-
-
-
+        </div>
+        <div class="mensaje_agradecimiento">
+            Gracias por preferirnos, <strong>Ferretería ED</strong>!
         </div>
     </main>
-    <script src="assets/js/script.js"></script>
-
+    <script src="script.js"></script>
     <h2>Contacto</h2>
-    <p>Puedes contactarme a través de <a href="mailto:ejemplo@correo.com">ejemplo@correo.com</a>.</p>
+    <p>Puedes contactarme a través de <a href="mailto:diego.perez293@gmail.com">ejemplo@correo.com</a>.</p>
 </body>
 </html>
